@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A portfolio template that uses Material Design Lite.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>MDL-Static Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+            <div class="mdl-layout__header-row portfolio-logo-row">
+                <span class="mdl-layout__title">
+                    <div class="portfolio-title">Yutaro's Portfolio</div>
+                </span>
+            </div>
+            <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                    <a class="mdl-navigation__link" href="index.html#about">About</a>
+                    <a class="mdl-navigation__link" href="index.html#portfolio">Portfolio</a>
+                    <a class="mdl-navigation__link" href="index.html#contact">Contact</a>
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+            <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link" href="index.html#about">About</a>
+                <a class="mdl-navigation__link is-active" href="index.html#portfolio">Portfolio</a>
+                <a class="mdl-navigation__link" href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+                    <!-- <div class="mdl-card__title">
+                    </div> -->
+                    <div class="mdl-card__supporting-text">
+                        <strong>Includes</strong>
+                        <span>UI, UX design</span>
+                    </div>
+                    <div class="mdl-grid portfolio-copy">
+                        
+                        <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding">
+                            <img class="title-image" src=" images/joyday.png" border="0" alt="" style="margin: 5% 0%;">
+                            <br>
+                            <p style="font-size: large; text-align: center; margin: 5% auto; color: black;">自分で書いた内容を生成AIが<br>ポジティブにしてくれる日記アプリ</p>
+
+
+                            <p>
+                                日記をつければ、自分を見つめ直すことができる。
+                                それはいいことばかりではない。悲しい出来事を振り返れば悲しみが再び襲ってくることもある。
+                                <br>
+                                JoyDayはあなたが書いた思い出をポジティブに書き換えてくれるアプリ。思い出をJoyDayに変えていこう。
+
+                            </p>
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <img class="article-image" src=" images/24910526.png" border="0" alt="">
+                        </div>
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline" style="margin-top: 10%;">ターゲット</h3>
+                        <div class="mdl-cell mdl-cell--12-col">日記についネガティブなことばかり書いてしまう人</div>
+                        <div class="mdl-cell mdl-cell--6-col">
+                            <img class="article-image" src=" images/negative.png" border="0" alt="">
+                        </div>
+                        <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding ">
+                            <p>
+                                一般的には、日記を書くことはメンタルヘルスに良いとされている。<br>
+                                一方で、ネガティブな内容を書くうちにメンタルヘルスの悪化を助長してしまう可能性もある。<br>
+                                そこで、日記を書いていて気分が明るくなるようなUXを実現する仮想の日記アプリを考えた。
+                            </p>
+                        </div>
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline" style="margin-top: 10%;">UX課題</h3>
+                        
+                        <div class="mdl-cell mdl-cell--7-col muute">
+                            <div style="font-size: 14px;">既存のジャーナリングアプリは客観的な分析フィードバックを重視<br>自己分析はできてもストレス軽減にはつながりにくい可能性</div>
+                            <img class="article-image" src="images/muute-data.png" border="0" alt="">
+                            <div class="image-caption">「muute」を使用したコクヨ株式会社の社員52名へのアンケート結果</div>
+                        </div>
+                        <div class="mdl-cell mdl-cell--5-col muute">
+                            <img class="article-image" src=" images/muute.png" border="0" alt="">
+                            <div class="image-caption">AIジャーナリングアプリ「muute」</div>
+                        </div>
+                        
+                        <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline" style="margin-top: 10%;">UI, UX提案</h3>
+
+                        <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding ">ネガティブな感情をポジティブに置き換えるリフレーミングという心理療法に着目。<br>日記を書いた後に生成AIがポジティブに書き換えてくれるインタラクションにより、客観的な感情分析以上のメンタルヘルス効果が期待できる。</div>
+                        <div class="mdl-cell mdl-cell--12-col" style="display: flex; justify-content: center; flex-direction: column;">
+                            <img class="article-image" src=" images/rewrite.png" border="0" alt="" style="max-width: 80%;">
+                            <div class="image-caption" style="margin: 5%;">JoyDayボタンを押すことで日記の内容がポジティブに書き換わる</div>
+                        </div>
+
+                        <div class="mdl-cell mdl-cell--4-col">
+                            <img class="article-image" src=" images/カレンダー.png" border="0" alt="" >
+                        </div>
+                        <div class="mdl-cell mdl-cell--8-col mdl-card__supporting-text no-padding"  style="display: flex; align-items: center; flex-direction: column;">
+                            <img class="article-image" src=" images/emotion.png" border="0" alt="" style="margin: 5% auto;">
+                            <div style="margin: 0% 5%;">感情を顔文字と色で表現。日記と共に記された感情が一目で分かる設計。<br>
+                            日記を書くときに顔文字を選ぶのはもちろん、書き換えられてポジティブになった文章を受け入れられたら顔文字を変更できる。<br>
+                            カレンダー上でポジティブ度合いが一目で分かり、ネガティブな日記を選んでポジティブに変えることができる。</div>
+                        <div class="row" style="display: flex;">
+                                <div class="mdl-cell mdl-cell--6-col">
+                                    <img class="article-image" src=" images/joyday-logo.png" border="0" alt="" style="max-width: 80%; margin: 5% auto;">
+                                </div>
+                                <div class="mdl-cell mdl-cell--6-col">ネガティブをポジティブに変換させるという意味で左から右へグラデーションを変えるロゴに。<br>joydayのyの最後も右上がりの矢印で表現。</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="mdl-mini-footer">
+            <div class="mdl-mini-footer__left-section">
+                <div class="mdl-logo">Yutaro's portfolio website</div>
+            </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</body>
+
+</html>
